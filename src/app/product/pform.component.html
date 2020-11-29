@@ -1,0 +1,25 @@
+<div>
+    <form>
+        <table>
+        <tr>
+            <td>Product Id : </td>
+            <td><input type="text" name="pid" [(ngModel)]="pid"></td>
+        </tr>
+
+        <tr>
+            <td>Name : </td>
+            <td><input type="text" name="nm" [(ngModel)]="pname"></td>
+        </tr>
+        <tr>
+            <td>
+                price :
+            </td>
+            <td>
+                <input type="text" name="price" [(ngModel)]="price">
+            </td>
+        </tr>
+        <button type="button" name="btn" id = "btn" (click)="addProduct()">Add Product</button>
+        <button type="button" name="btn" id = "btn" (click)="updateProduct()">Update Product</button>
+    </table>
+    </form>
+</div>
